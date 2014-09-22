@@ -9,7 +9,7 @@ The plugin consists of two main components
 * Annotation stage: Creating a new label map out of selected components from the watershed stage
 
 Watershed stage
-====
+----
 
 It allows the user to perform a series of Watershed segmentations on a 3D image using the SimpleITK “Morphological Watershed” without seeds. 
 
@@ -21,7 +21,7 @@ They can edit various parameters but importantly they can choose a range of valu
 A user can then use a range for this parameter (e.g. 1 to 2 with steps of 0.1 resulting in 20 label map results)
 
 Annotation stage
-===
+----
 
 The user can then select individual segmentations out of any of the watershed produced label map using fiducials.
 
