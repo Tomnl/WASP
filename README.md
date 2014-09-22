@@ -3,7 +3,10 @@ WASP
 
 Watershed Annotation and Segmentation Plugin for 3D Slicer
 
-The plugin consists of two main components, first performing a series of watershed filters (watershed stage) and secondly creating a new label map out of selected components from the watershed filter (annotation stage).
+The plugin consists of two main components
+
+* Watershed stage: Perform a series of watershed filters on the original image
+* Annotation stage: Creating a new label map out of selected components from the watershed stage
 
 Watershed stage
 ====
@@ -12,8 +15,8 @@ It allows the user to perform a series of Watershed segmentations on a 3D image 
 
 They can edit various parameters but importantly they can choose a range of values to use for the “watershed level”. 
 
-•	When the watershed value is lower the image will be segmented into more components. 
-•	When the watershed level is higher the image will be segmented into less components
+* When the watershed value is lower the image will be segmented into more components. 
+* When the watershed level is higher the image will be segmented into less components
 
 A user can then use a range for this parameter (e.g. 1 to 2 with steps of 0.1 resulting in 20 label map results)
 
